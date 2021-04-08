@@ -207,3 +207,23 @@ font-weight: 600;
 .column-chk label {
   font-weight: 500;
 }
+
+/*Terms of use*/
+.terms {
+  font-size: 0.9rem;
+}
+
+/*copyright*/
+
+.copyright {
+margin-top: 1rem;
+}
+
+.copyright, .copyright a {
+  font-size: 0.8rem;
+  color: #247c89;
+}
+
+.copyright a:hover {
+  color: #12353a;
+}
