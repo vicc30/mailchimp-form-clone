@@ -175,3 +175,35 @@ ul.list li::before {
   display: inline-block;
   width: 1em;
 }
+
+/* sign up button */
+
+.sign-up {
+  margin-top: 1.5rem;
+}
+
+.sign-up .column-btn{
+  flex:2;
+}
+
+.column-btn button{
+padding: 0.5rem 2rem;
+background-color: #fff;
+border: solid 1px #bcbab8;
+color: #bcbab8;
+font-weight: 600;
+}
+
+.sign-up .column-chk {
+  flex:5;
+}
+
+.column-chk input {
+  font-size: 1rem;
+  min-width: 1rem;
+  min-height: auto;
+}
+
+.column-chk label {
+  font-weight: 500;
+}
