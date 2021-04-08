@@ -227,3 +227,21 @@ margin-top: 1rem;
 .copyright a:hover {
   color: #12353a;
 }
+
+/*Feedback*/
+.feedback {
+  position: fixed;
+  right: -1.5rem;
+  top: 50%;
+  transform: rotate(-90deg);
+  background-color: #EFEEEA;
+  color: black;
+  padding: 0.5rem 1rem 0.5rem 0.5rem;
+}
+
+.feedback a{
+  color: black;
+  text-decoration: none;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
