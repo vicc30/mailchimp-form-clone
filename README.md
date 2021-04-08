@@ -39,4 +39,4 @@ Special thanks to Odin Project Community!
 * [MDN WebDocs. Using CSS gradients](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Images/Using_CSS_gradients)
 * [W3 Schools CSS Flex Responsive](https://www.w3schools.com/css/css3_flexbox_responsive.asp)
 * [Odin Project: Displaying and Inputting Data](https://www.theodinproject.com/paths/full-stack-javascript/courses/html-and-css#displaying-and-inputting-data)
-
+* [Google Fonts - Kiwi Maru / QuickSand](https://fonts.google.com/)

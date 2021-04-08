@@ -89,6 +89,11 @@ body {
   overflow-x: hidden; /* Hide horizontal scrollbar */
 }
 
+*{
+  font-family: 'Quicksand', sans-serif;
+  line-height: 1.5rem;
+}
+
 /*Side bar*/
 .side {
   /*Linear gradient to divide left white right yellow*/
@@ -128,8 +133,9 @@ body {
 }
 
 .form-container h1 {
-  font-size: 3rem;
+  font-size: 2.5rem;
   line-height: 3.2rem;
+  font-family: 'Kiwi Maru', serif;
 }
 
 .form-container h1, .form-container p {
@@ -146,7 +152,10 @@ body {
   border: solid 1px #bcbab8;
   min-width: 90%;
   min-height: 2.8rem;
-  margin-bottom: 1.6rem;
-  margin-top: 0.8rem;
+  margin-bottom: 1.2rem;
+  margin-top: 0.4rem;
 }
 
+.form-container label {
+  font-weight: 600;
+}
