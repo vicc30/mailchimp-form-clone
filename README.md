@@ -40,3 +40,4 @@ Special thanks to Odin Project Community!
 * [W3 Schools CSS Flex Responsive](https://www.w3schools.com/css/css3_flexbox_responsive.asp)
 * [Odin Project: Displaying and Inputting Data](https://www.theodinproject.com/paths/full-stack-javascript/courses/html-and-css#displaying-and-inputting-data)
 * [Google Fonts - Kiwi Maru / QuickSand](https://fonts.google.com/)
+* [How to change bullets collor with CSS](https://www.w3schools.com/howto/howto_css_bullet_color.asp)
