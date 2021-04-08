@@ -103,8 +103,50 @@ body {
   margin-left: 1rem;
 }
 
+.main img {
+  width: 2.5rem;
+}
+
 .main,
 .side {
   padding: 1rem;
   min-height: 800px; /*Just for testing REMOVE*/
 }
+
+/* Form Container */
+
+.form-container {
+  width: 600px;
+  margin: 0 auto;
+}
+
+/*Media query for small screen to full width form container */
+@media screen and (max-width: 600px) {
+  .form-container {
+    width: 100%;
+  }
+}
+
+.form-container h1 {
+  font-size: 3rem;
+  line-height: 3.2rem;
+}
+
+.form-container h1, .form-container p {
+  padding: 1rem 0;
+}
+
+/*Form*/
+
+.form-container form {
+  padding: 2rem 0;
+}
+
+.form-container input {
+  border: solid 1px #bcbab8;
+  min-width: 90%;
+  min-height: 2.8rem;
+  margin-bottom: 1.6rem;
+  margin-top: 0.8rem;
+}
+

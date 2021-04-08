@@ -26,6 +26,10 @@ In this project, We have to rebuild the form used by [Mailchimp.com](https://log
 ## Livepreview 
 
 
+## Original Page
+
+Visit [Mailchimp original form](https://login.mailchimp.com/signup/)
+
 ## Mentions
 
 Special thanks to Odin Project Community!
