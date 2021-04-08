@@ -8,13 +8,13 @@ In this project, We have to rebuild the form used by [Mailchimp.com](https://log
 
 ## Assignment
 
-* [ ] Go to Mint.com’s signup page and have a look around.
-* [ ] Create a blank HTML document.
-* [ ] Plan out how the elements on the page need to be grouped together.
-* [ ] Lay out the empty semantic HTML elements for the major sections (form, sidebar, footer…) and make them the proper size and alignment. It may be helpful to change their background colors while you’re positioning them on the page. Don’t forget to use your browser’s developer tools (right click on the page, click “inspect element”)!
-* [ ] Fill in those elements with the content you want to include.
-* [ ] Now style them to look like the real webpage.
-* [ ] Push your solution up to GitHub and you’re good to go!
+* [x] Go to Mint.com’s signup page or Mailchimp and have a look around.
+* [x] Create a blank HTML document.
+* [x] Plan out how the elements on the page need to be grouped together.
+* [x] Lay out the empty semantic HTML elements for the major sections (form, sidebar, footer…) and make them the proper size and alignment. It may be helpful to change their background colors while you’re positioning them on the page. Don’t forget to use your browser’s developer tools (right click on the page, click “inspect element”)!
+* [x] Fill in those elements with the content you want to include.
+* [x] Now style them to look like the real webpage.
+* [x] Push your solution up to GitHub and you’re good to go!
 
 ## Expected Outcomes
 
@@ -25,7 +25,7 @@ In this project, We have to rebuild the form used by [Mailchimp.com](https://log
 
 ## Livepreview 
 
-
+Live preview here on [Github Pages](https://vicc30.github.io/mailchimp-form-clone/)
 ## Original Page
 
 Visit [Mailchimp original form](https://login.mailchimp.com/signup/)
