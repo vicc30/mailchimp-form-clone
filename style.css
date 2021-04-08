@@ -1,0 +1,110 @@
+/*
+* Reset rules
+*/
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/** Rules for flex container */
+* {
+  font-family: "Open Sans", sans-serif;
+}
+.row {
+  display: -webkit-flex;
+  display: flex;
+}
+/* Create two unequal columns that sits next to each other */
+/* Right column */
+.column.side {
+  -webkit-flex: 3;
+  -ms-flex: 3;
+  flex: 3;
+}
+/* Main column */
+.column.main {
+  -webkit-flex: 9;
+  -ms-flex: 9;
+  flex: 9;
+  background-color: #fff;
+}
+
+/* Responsive layout - makes the right column hidde and main column to 100% width*/
+@media screen and (min-width: 0px) and (max-width: 600px) {
+  .column.side {
+    display: none !important;
+  }
+}
+
+@media screen and (min-width: 601px) {
+  .column.side {
+    display: block !important;
+  }
+}
+
+/*Body*/
+body {
+  background-color: #ffe033;
+  overflow-x: hidden; /* Hide horizontal scrollbar */
+}
+
+/*Side bar*/
+.side {
+  /*Linear gradient to divide left white right yellow*/
+  --bg-layer-1: no-repeat bottom 10% left 0 url(./images/art-hero-flowers.png);
+  --bg-layer-2: linear-gradient(to left, #ffe01b 85%, transparent 85%);
+  background: var(--bg-layer-1), var(--bg-layer-2);
+  background-color: #fff;
+}
+
+/*Main bar*/
+.main {
+  margin-left: 1rem;
+}
+
+.main,
+.side {
+  padding: 1rem;
+  min-height: 800px; /*Just for testing REMOVE*/
+}
