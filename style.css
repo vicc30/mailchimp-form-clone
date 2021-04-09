@@ -180,6 +180,7 @@ ul.list li::before {
 
 .sign-up {
   margin-top: 1.5rem;
+  display: flex;
 }
 
 .sign-up .column-btn{
